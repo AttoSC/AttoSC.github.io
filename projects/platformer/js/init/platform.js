@@ -1,4 +1,4 @@
-(function (window) {
+      (function (window) {
   "use strict";
   window.opspark = window.opspark || {};
   window.opspark.platform = window.opspark.platform || {};
@@ -35,10 +35,13 @@
      * bottom of the game.
      */
     createPlatform(0, game.world.height - 32, 3, 2); // DO NOT DELETE
+    createPlatform(150, 560)
+    createPlatform(500, 470)
+    createPlatform(150, 350);
+    createPlatform(550, 250);
+    createPlatform(-200, 250);
 
     // example:
-    createPlatform(400, 250);
-    createPlatform(170, 460, 0.5);
 
     // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////
