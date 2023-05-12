@@ -154,7 +154,7 @@ Once that is done, you should see the heads-up display!
   > <img src="img/readme/yellow-bg.png">
 
 <hr>
-
+5
 - **2b)** Choose your own background color!
 
   **FIND:** The file `js/view/background.js`, where the variable `backgroundFill` is defined (around line 36).
